@@ -10,24 +10,23 @@ stuck, check out the solution.gradle file in this directory.
 task stringsAndTypes << {
     // TODO: Run `$ gradle sAT`
     println "Nice work abbreviating the task name"
-
-
     // TODO: Create a variable named foo and assign it the value 4.2
-
+    def foo = 4.2
     // TODO: Print the value and class of foo
-
+    println "$foo is of type ${foo.class}"
     // TODO: Use string interpolation to print the square root of 127
     // HINT: http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html
-
+    println "Square root of 127: ${Math.sqrt(127)}"
     // TODO: Assign the current date to foo and print it, along with its type
     // HINT:
     // http://docs.oracle.com/javase/7/docs/api/java/util/package-summary.html
-
+    foo = new java.util.Date()
+    println "foo is now of type ${foo.class} and value $foo"
     // TODO: Use the `substring` method to extract my name from this string
     def hello = "Hello, Jeremy.";
-
+    println "My name is ${hello.substring(7, 13)}"
     // TODO: Use `toUpperCase` to capitalize and print my name
-
+    println "Now in uppercase: ${hello.substring(7, 13).toUpperCase()}"
 }
 
 task closures << {
