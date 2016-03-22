@@ -1,6 +1,7 @@
 # ud867: Gradle for Android and Java
 
-Welcome to the demos and exercises accompanying ud867 at Udacity!
+This is my personal copy of the demos and exercises accompanying ud867 at Udacity!
+The only purpose of this repository is to have it around as reference and to be able to work on it from anywhere.
 
 Each directory contains a README.md or solution.gradle that will explain either
 the concept being explored or the exercise at hand. For each exercise, hints
