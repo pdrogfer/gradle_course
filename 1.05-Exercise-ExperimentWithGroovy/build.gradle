@@ -52,7 +52,6 @@ task lists << {
     // TODO: Create a new list of your candies in all caps
     // HINT: http://mrhaki.blogspot.ca/2010/05/groovy-goodness-use-collect-with.html
     def toUpper = candies.collect{it.toUpperCase()}
-    toUpper.each{println it}
     // TODO: Print each capital candy
-
+    toUpper.each{println it}
 }
