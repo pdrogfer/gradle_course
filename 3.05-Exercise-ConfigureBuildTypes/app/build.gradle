@@ -35,6 +35,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+// this block is the solution to the exercise
+        debug {
+            applicationIdSuffix "debug"
+        }
     }
 }
 
